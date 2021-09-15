@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'vivek.jpg',
   paragraphOne: `Hello I am Satya Chiratla, I have much knowledge in Frontend Development. A highly motivated individual passionate about coding and technology. I have been developing websites for over 2 years.`,
   paragraphTwo: `The technologies I knew are Html5, CSS3, JavaScript, ReactJs, Redux. I create responsive websites that are displayed on all devices desktops and mobiles. I have curious to learn FullStack and many more technologies.`,
-  paragraphThree: `My goal is to crack FAANG companies. Also, I have worked hard in my education and now its time to put them into my career.`,
+  paragraphThree: `Also, I have worked hard in my education and now its time to put them into my career.`,
   resume: '', // if no resume, the button will not show up
 };
 
