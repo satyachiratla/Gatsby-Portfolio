@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'vivek.jpeg',
   paragraphOne: `Hello I am Satya Chiratla, A highly motivated individual passionate about coding and technology. I have been developing websites for over 2 years.`,
-  paragraphTwo: `The technologies I knew are Html5, CSS3, JavaScript, ReactJs, Redux. I create responsive websites that are displayed on all devices desktops and mobiles. I have curious to learn FullStack and many more technologies.`,
+  paragraphTwo: `The technologies I knew are Html5, CSS3, JavaScript, Python, ReactJs, Redux and NodeJs. I create responsive websites that are displayed on all devices desktops and mobiles. I have curious to learn FullStack and many more technologies.`,
   paragraphThree: `Also, I have worked hard in my education and now its time to put them into my career.`,
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1wSehTampGP8huqFP15z1Y7z9Rxlca4k0/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,17 +30,17 @@ export const projectsData = [
     id: nanoid(),
     img: 'cricbuzz.png',
     title: 'Mini Cricbuzz',
-    info: 'Get the IPL 2022 Live Live Cricket Score, Scorecard, Schedules of International and Domestic cricket matches along with Latest News, Videos and ICC Cricket ...',
-    info2: '',
+    info: 'Get the T20 World Cup 2022 Live Cricket Score, Scorecard, and Schedules of International Matches.',
+    info2: `Fully built with NextJS and its core features like page pre-rendering. Once visiting this page the pages are pre-rendered so that the pages are loaded quickly as possible.`,
     url: 'https://vivekscricbuzz.vercel.app/',
-    repo: 'https://github.com/satyachiratla/Nextjs-Cricbuzz', // if no repo, the button will not show up
+    repo: 'https://github.com/satyachiratla/Nextjs_Cricbuzz', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'foodorder.png',
     title: 'Food Order App',
-    info: 'Build a Dynamic Single Page Application by managing the state with context API and fetching data, storing data from the backend (FireBase)',
-    info2: '',
+    info: 'The app helps customers access online food ordering platforms, search for the right restaurant or dish they want to order, place their orders and pay easily.',
+    info2: `Build a Dynamic Single Page Application by managing the state with context API and integrated the backend with NodeJS, and ExpressJS.`,
     url: 'https://peddadameals.netlify.app/',
     repo: 'https://github.com/satyachiratla/foodapp', // if no repo, the button will not show up
   },
