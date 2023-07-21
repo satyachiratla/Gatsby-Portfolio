@@ -28,17 +28,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'cricbuzz.png',
-    title: 'Mini Cricbuzz',
-    info: 'Get the T20 World Cup 2022 Live Cricket Score, Scorecard, and Schedules of International Matches.',
-    info2: `Fully built with NextJS and its core features like page pre-rendering. Once visiting this page the pages are pre-rendered so that the pages are loaded quickly as possible.`,
-    url: 'https://vivekscricbuzz.vercel.app/',
-    repo: 'https://github.com/satyachiratla/Nextjs_Cricbuzz', // if no repo, the button will not show up
+    img: 'foodapp.jpg',
+    title: 'Food Ordering App',
+    info: 'The successful creation of a stunning restaurant website using NextJS and the power of Tailwind CSS.',
+    info2: `One of the most exciting aspects of this project was implementing the CRUD operations. NextJS 13's built-in APIs and data-fetching capabilities made it effortless to create, read, update, and delete data within the website.`,
+    url: 'https://peddadameals.vercel.app/',
+    repo: 'https://github.com/satyachiratla/NextJS-Food-App',
   },
   {
     id: nanoid(),
     img: 'foodorder.png',
-    title: 'Food Order App',
+    title: 'Food App',
     info: 'The app helps customers access online food ordering platforms, search for the right restaurant or dish they want to order, place their orders and pay easily.',
     info2: `Build a Dynamic Single Page Application by managing the state with context API and integrated the backend with NodeJS, and ExpressJS.`,
     url: 'https://peddadameals.netlify.app/',
@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'places.png',
-    title: 'Saving Places',
-    info: 'Created a saving places app that you might be visit in the future, using MERN(MongoDB, Express, React, Node) deployed in Heroku and Netlify..',
-    info2: '',
-    url: 'https://vivekchowdary.herokuapp.com/',
-    repo: 'https://github.com/satyachiratla/places/tree/master', // if no repo, the button will not show up
+    img: 'cricbuzz.png',
+    title: 'Mini Cricbuzz',
+    info: 'Get the T20 World Cup 2022 Live Cricket Score, Scorecard, and Schedules of International Matches.',
+    info2: `Fully built with NextJS and its core features like page pre-rendering. Once visiting this page the pages are pre-rendered so that the pages are loaded quickly as possible.`,
+    url: 'https://vivekscricbuzz.vercel.app/',
+    repo: 'https://github.com/satyachiratla/Nextjs_Cricbuzz', // if no repo, the button will not show up
   },
 ];
 
